@@ -13,6 +13,8 @@
 		844D6EB41C25FF0C00CCE7B0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 844D6EB31C25FF0C00CCE7B0 /* Images.xcassets */; };
 		844D6EB71C25FF0C00CCE7B0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 844D6EB51C25FF0C00CCE7B0 /* LaunchScreen.xib */; };
 		844D6EC31C25FF0C00CCE7B0 /* HackinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844D6EC21C25FF0C00CCE7B0 /* HackinderTests.swift */; };
+		844D6ECF1C26056400CCE7B0 /* PopularIdeasTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844D6ECE1C26056400CCE7B0 /* PopularIdeasTableView.swift */; };
+		84DF05D41C264FB3008B62E4 /* ViewIdeaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DF05D31C264FB3008B62E4 /* ViewIdeaViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		844D6EBC1C25FF0C00CCE7B0 /* HackinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		844D6EC11C25FF0C00CCE7B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		844D6EC21C25FF0C00CCE7B0 /* HackinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackinderTests.swift; sourceTree = "<group>"; };
+		844D6ECE1C26056400CCE7B0 /* PopularIdeasTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopularIdeasTableView.swift; sourceTree = "<group>"; };
+		84DF05D31C264FB3008B62E4 /* ViewIdeaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewIdeaViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 				844D6EB31C25FF0C00CCE7B0 /* Images.xcassets */,
 				844D6EB51C25FF0C00CCE7B0 /* LaunchScreen.xib */,
 				844D6EAA1C25FF0C00CCE7B0 /* Supporting Files */,
+				844D6ECE1C26056400CCE7B0 /* PopularIdeasTableView.swift */,
+				84DF05D31C264FB3008B62E4 /* ViewIdeaViewController.swift */,
 			);
 			path = Hackinder;
 			sourceTree = "<group>";
@@ -212,8 +218,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84DF05D41C264FB3008B62E4 /* ViewIdeaViewController.swift in Sources */,
 				844D6EAF1C25FF0C00CCE7B0 /* ViewController.swift in Sources */,
 				844D6EAD1C25FF0C00CCE7B0 /* AppDelegate.swift in Sources */,
+				844D6ECF1C26056400CCE7B0 /* PopularIdeasTableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +413,7 @@
 				844D6EC81C25FF0C00CCE7B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		844D6EC91C25FF0C00CCE7B0 /* Build configuration list for PBXNativeTarget "HackinderTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +422,7 @@
 				844D6ECB1C25FF0C00CCE7B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
